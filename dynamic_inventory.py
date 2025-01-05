@@ -4,7 +4,7 @@ import json
 import socket
 
 # Define the region and filters for the EC2 instances
-REGION = 'ap-south-1'  # Replace with your desired AWS region
+REGION = 'us-east-1'  # Replace with your desired AWS region
 PEM_KEY_PATH = 'private-key.pem'  # Path to your PEM file
 TAG_NAME = 'Name'  # Tag key (we are using 'kafka' as the key)
 TAG_VALUE = 'kafka'  # Tag value to filter instances (adjust as needed)
